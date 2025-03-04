@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+#cont-principal{
+    width: 100%;
+    min-height: 110vh ;
+    background: black;
+    text-align: center;
+    padding: 80px 100px;
+}
+
+h1{
+    color: aqua;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+p{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+hr{
+    margin-bottom: 40;
+    border-color: aqua;
+}
+button{
+    padding: 10px 30px; 
+    background: aqua;
+    border-radius: 6px;
+    color: black;
+    border: 1px solid aqua;
+    margin: 5px;
+    transition: 5s;
+    cursor: pointer;
+
+}
+button:hover{
+    background: black ;
+    color: aqua ;
+    border-radius:0 ;
+    box-shadow: 4px 4px 10px 0px aqua;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    margin: 40px 0px;
+}
